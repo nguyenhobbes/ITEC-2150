@@ -7,7 +7,7 @@ public class Main {
         int maxSize = input.nextInt();
         System.out.println("How many files do you have to store in directory A?");
         int numberOfFile = input.nextInt();
-        System.out.println("How many files do you have to store in directory A?");
+        System.out.println("Enter each file size in KB");
         int[] fileSizeList = new int[numberOfFile];
         for(int i = 0; i < numberOfFile; i++){
             fileSizeList[i] = input.nextInt();

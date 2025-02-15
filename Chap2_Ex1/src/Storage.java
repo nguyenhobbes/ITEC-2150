@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Storage
 {
-    private ArrayList<Integer> file = new ArrayList<>();
+    private ArrayList<Integer> file = new ArrayList<Integer>();
     private int maxFileSize = 0;
     private int totalSize = 0;
 
