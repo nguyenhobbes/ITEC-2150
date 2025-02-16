@@ -1,13 +1,13 @@
-public class Chicken extends FarmAnimal{
-    private String type = "Chicken";
+public class Cow extends FarmAnimal{
+    private String type = "Cow";
     private String sound;
 
-    public Chicken() {
+    public Cow() {
         super();
-        sound = "Cock-a-Doodle-doo";
+        sound = "Moo Moo";
     }
 
-    public Chicken (String name, String gender, double weight, int age, String sound) {
+    public Cow (String name, String gender, double weight, int age, String sound) {
         super(name, gender, weight, age);
         this.sound = sound;
     }
@@ -35,6 +35,6 @@ public class Chicken extends FarmAnimal{
 
     @Override
     public String feedLoadingSchedule() {
-        return this.getName() + ": " + "8am-4pm";
+        return this.getName() + ": " + "6am-4pm";
     }
 }
